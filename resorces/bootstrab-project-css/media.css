@@ -1,0 +1,256 @@
+/* Start Media Query */
+
+
+/* Extra small devices (portrait phones)  */
+
+
+/* No media query for `xs` since this is the default in Bootstrap */
+
+@media(max-width:576px) {
+    /* upper-bar  */
+    .upper-bar .left-side,
+    .upper-bar .right-side {
+        padding: 0px 0px 0px 6px;
+    }
+    .nav-cont .navbar-brand>span {
+        font-size: 30px;
+    }
+    /* slider */
+    .slider .container.info {
+        font-size: 30px;
+    }
+    .slider .container.info h1 {
+        font-size: 30px;
+    }
+    /* overview */
+    .overview h2 {
+        font-size: 30px;
+    }
+    /* featured-work */
+    .featured-work h2 {
+        font-size: 30px;
+    }
+    .featured-work p {
+        line-height: 2.5rem;
+        margin-bottom: 30px;
+    }
+    .featured-work ul {
+        margin-bottom: 25px;
+    }
+    /* Card Latest Achivment */
+    .latest-post .card-img-top {
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .latest-post h2 {
+        font-size: 30px;
+    }
+    .latest-post .col.sm-xs {
+        max-width: 355px;
+        text-align: center;
+        margin: 27px auto;
+    }
+    /* contact */
+    .contact-cont .main-color:first-of-type {
+        margin-bottom: 50px;
+    }
+    .contact-cont .icon-primary {
+        vertical-align: top;
+        margin-right: 16px;
+    }
+    /* copyright */
+    .copyright .text-right {
+        text-align: center;
+    }
+    /* header sections */
+    .overview h2,
+    .features h2,
+    .featured-work h2,
+    .latest-post h2 {
+        font-size: 30px;
+    }
+}
+
+
+/*  */
+
+@media(max-width:280px) {
+    .upper-bar span {
+        font-size: 14px;
+    }
+    .navbar {
+        padding: .1rem 1rem;
+    }
+    .nav-cont .navbar-brand>span {
+        font-size: 30px;
+    }
+    .slider .container.info,
+    .slider .container.info h1 {
+        font-size: 21px;
+    }
+    .featured-work ul li {
+        margin-bottom: 5px;
+    }
+    .latest-post {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .latest-post h2 {
+        font-size: 20px;
+        padding: 10px 15px;
+        margin: 0 auto 20px auto;
+    }
+    .latest-post .disc {
+        line-height: 2rem;
+        font-size: 20px;
+        width: 100%;
+        margin: 20px auto;
+        color: #6a6a6a;
+    }
+    .contact-cont .info-horizontal {
+        display: block;
+    }
+}
+
+
+/*  */
+
+@media(max-width:376px) {
+    .testimonials-section .carousel-caption {
+        padding: 0;
+    }
+}
+
+
+/*  */
+
+@media(max-width:415px) {
+    .upper-bar .right-side {
+        display: none;
+    }
+    .featured-work ul li {
+        margin: 5px;
+    }
+}
+
+
+/* Small devices (landscape phones) */
+
+@media(min-width:577px) and (max-width:767px) {
+    .upper-bar .left-side {
+        padding-left: 6px;
+    }
+    .upper-bar .right-side {
+        padding-right: 0;
+    }
+    /* slider */
+    .slider .container.info {
+        font-size: 35px;
+    }
+    .slider .container.info h1 {
+        font-size: 35px;
+    }
+    .latest-post .card-img-top {
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .latest-post .col.sm-xs {
+        max-width: 355px;
+        text-align: center;
+        margin: 22px auto;
+    }
+    /* featured-work */
+    .featured-work .container.featured-cont {
+        padding: 0;
+    }
+    /* footer */
+    .footer .for-sm-padding {
+        padding-left: 0;
+    }
+    /* contact */
+    .contact-cont .main-color:first-of-type {
+        margin-bottom: 50px;
+    }
+    .contact-cont .icon-primary {
+        vertical-align: top;
+        margin-right: 16px;
+    }
+    /* header sections */
+    .overview h2,
+    .features h2,
+    .featured-work h2,
+    .latest-post h2 {
+        font-size: 40px;
+    }
+}
+
+
+/* Medium devices (tablets) */
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .upper-bar .left-side {
+        padding-left: 6px;
+    }
+    .upper-bar .right-side {
+        padding-right: 0;
+    }
+    /* Card Latest Achivment */
+    .latest-post .card-img-top {
+        width: 226px;
+        height: 160px;
+        margin: 0 auto;
+    }
+    .latest-post .card-body {
+        padding: .7rem;
+    }
+    /* copyright */
+    .copyright .container {
+        max-width: 820px;
+        padding-right: 0;
+        padding-left: 5px;
+    }
+    /* Footer */
+    .footer .container.my-cont {
+        max-width: 830px;
+    }
+    .footer .container.my-cont div {
+        padding-right: 0;
+    }
+}
+
+
+/* Large devices (desktops) */
+
+@media(min-width:992px) and (max-width:1199px) {
+    /* featured-work */
+    .featured-work img {
+        width: 80%;
+        height: 80%;
+    }
+    /* contact */
+    .contact-cont .icon-primary {
+        vertical-align: top;
+        margin-right: 16px;
+    }
+}
+
+
+/* Extra large devices (large desktops) */
+
+@media(min-width:1200px) {
+    /* featured-work */
+    .shuffle-imgs .container.shuffle-cont {
+        height: 190px;
+    }
+    .featured-work img {
+        width: 80%;
+        height: 80%;
+    }
+    /* contact */
+    .contact-cont .icon-primary {
+        vertical-align: top;
+        margin-right: 16px;
+    }
+}

@@ -1,0 +1,77 @@
+.featured-work ul li.active,
+.featured-work ul li:hover,
+.slider .btn-primary:hover,
+.slider .btn.btn-primary:not(:disabled):not(.disabled):active,
+.contact-cont .btn-primary:hover,
+.contact-cont .btn.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: rgb(196, 248, 8);
+}
+
+.testimonials-section .carousel-indicators .active,
+.slider .carousel-indicators .active {
+    background: rgb(196, 248, 8);
+}
+
+.upper-bar i,
+.navbar-light .navbar-nav .nav-link:hover,
+.nav-cont .navbar-brand span:last-child,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active,
+.slider .container.info span,
+.overview h2,
+.features h2,
+.featured-work h2,
+.latest-post h2,
+.latest-post .transform_flip_card .card_back,
+.latest-post .transform_flip_card .card_back i,
+.features i,
+.featured-work ul li,
+.overview button,
+.latest-post .card-link,
+.stats h2,
+.stats p,
+.contact-cont .icon i,
+.contact-cont .input-group i,
+.footer .site-info h2 span:last-child,
+.footer .site-info a,
+.footer .helpful-links h2,
+.footer .contact-us h2,
+.footer .helpful-links ul li:before,
+.footer .contact-us li span,
+.copyright span,
+.copyright ul li a,
+.copyright i:hover,
+.option-box .gear-check,
+.option-box select,
+#scroll-up {
+    color: rgb(196, 248, 8);
+}
+
+.upper-bar .get-quote,
+.slider .btn-primary,
+.overview button,
+.contact-cont .btn-primary {
+    border: 1px solid rgb(196, 248, 8);
+}
+
+.slider .container.info img,
+.testimonials-section .carousel-indicators li,
+.testimonials-section .carousel-item img,
+.slider .carousel-indicators li {
+    border: 2px solid rgb(196, 248, 8);
+}
+
+.copyright {
+    border-top: 1px solid rgb(196, 248, 8);
+}
+
+.upper-bar {
+    border-bottom: 1px solid rgb(196 248 8);
+}
+
+.slider .container.info img,
+.testimonials-section .carousel-item img {
+    box-shadow: 0px 0px 18px 1px rgb(196 248 8 / 65%);
+}
